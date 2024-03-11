@@ -21,6 +21,8 @@ Files/folders that can probably remain unchanged:
 - Controllers/api:
    - controllers/api/User-routes.js
    - controllers/api/Index.js
+- layouts/partials:
+   - login.handlebars
 
 
 ============================= NOTES =========================
