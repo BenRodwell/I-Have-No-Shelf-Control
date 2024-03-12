@@ -1,6 +1,7 @@
--- this is a seed file
--- data to be added
-
 -- seed file to contain each comment data
 
---- probably need to be changed to a seed.js file
+USE book_review_db;
+
+INSERT INTO Comments (ReviewID, UserID, CommentText, CommentDate)
+VALUES 
+(1, 1, "It is a book indeec", '2024-03-12'),
