@@ -1,6 +1,6 @@
--- this is a seed file
--- data to be added
-
 -- seed file to contain each review data
+USE book_review_db;
 
---- probably need to be changed to a seed.js file
+INSERT INTO Reviews (UserID, BookID, ReviewText, Rating, ReviewDate)
+VALUES 
+(1, 1, "It's a book.", 5, '2024-03-12'),
