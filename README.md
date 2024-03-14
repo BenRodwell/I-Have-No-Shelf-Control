@@ -8,7 +8,14 @@ Make a .env file and paste this into it:
 
 DB_NAME='museum_db'   \
 DB_USER='root'        \
-DB_PASSWORD=''      
+DB_PASSWORD=''      [enter your mySQL password]
+
+then in console:
+- mysql -u root -p
+- SOURCE db/schema.sql;
+- exit;
+- npm run seed
+- open in web browser http://localhost:3002
 
 Files/folders that can probably remain unchanged:
 
