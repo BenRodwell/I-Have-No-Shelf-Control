@@ -29,10 +29,11 @@ a:visited {
 }
 
 header {
-  padding: 40px;
-  text-align: center;
-  background: var(--primary);
+  text-align: left;
+  background: #041175;
   color: var(--light);
+  padding-top: 50px;
+  padding-right: 10px;
 }
 
 main {
@@ -51,14 +52,15 @@ aside {
 
 nav {
   display: flex;
-  background-color: var(--secondary);
+  background-color:#041175 ;
+  text-align: right;
 }
 
 nav a {
-  color: var(--light);
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
+  background-color: #041175;
+  padding: 30px;
+  text-align: right;
+
 }
 
 nav a:hover {
@@ -68,7 +70,7 @@ nav a:hover {
 
 .gallery {
   flex: 4;
-  background-color: #fff;
+  background-color: #041175;
   padding: 50px;
   display: flex;
   flex-flow: row wrap;
@@ -105,14 +107,20 @@ img {
   font-weight: bold;
 }
 
+.row {
+  padding:50px
+}
+
 /* CARDS */
 .card {
   margin: 20px;
-  flex: 0 1 300px;
+  height: 200px;
+  width: 200px;
   border: 7px double var(--dark);
   border-radius: 10px;
   background-color: var(--light);
   color: var(--dark);
+  align-items: center;
 }
 
 .login-card {
@@ -124,16 +132,14 @@ img {
   border-radius: var(--border-radius);
   border-style: double;
   border-width: thick;
-  background-color: #577a7c;
-  color: var(--light);
+  color: white;
 }
 
-.card header {
-  color: var(--light);
+.card-header {
+  color: white;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  background-color: var(--tertiary);
   padding: 0.625rem;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
@@ -155,6 +161,10 @@ img {
   padding-left: 100px;
 }
 
+.page-title {
+  color: white;
+}
+
 /* LAYOUT */
 .container {
   display: flex;
@@ -162,3 +172,5 @@ img {
   align-content: flex-start;
   align-items: center;
 }
+
+

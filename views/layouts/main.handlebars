@@ -10,33 +10,30 @@
 </head>
 
 <body>
-  <header>
-    <h1>I HAVE NO SHELF CONTROL</h1>
-  </header>
   <nav>
-    <a href="/">Home</a>
 
     {{#if loggedIn}}
 
     <button id="logout" class="btn-no-style">Logout</button>
 
     {{else}}
-
-    <a href="/login">Login</a>
-
+  <header class="header">
+    <h1>I Have No Shelf Control</h1>
+  </header>
+  <header class="nav a">
+    <a href="/">Home</a>
+    <a href="/login">Sign Up/Login In</a>
+    <a href="/login">Account</a>
+    <input type="submitSearch" value="Search">
+    <button onclick="search">Submit</button>
+  </header>
     {{/if}}
   </nav>
   <main>
-    <aside>
-      <h2>Book Review Database</h2>
-    </aside>
     <div class="gallery">
-
       {{{body}}}
-
     </div>
   </main>
-
   {{#if loggedIn}}
 
   <script src="/js/logout.js"></script>
