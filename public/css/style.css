@@ -66,6 +66,39 @@ nav a:hover {
   background-color: var(--dark);
 }
 
+#book-input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 95px;
+}
+
+.card-add-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#book-addition {
+  position: relative;
+  left: 160px;
+  margin-top: 30px;
+}
+#summary{
+  position: relative;
+  left: 10px;
+  margin-top: 5px;
+  height: 150px;
+  width: 400px;
+}
+
+#content-book-add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .gallery {
   flex: 4;
   background-color: #fff;

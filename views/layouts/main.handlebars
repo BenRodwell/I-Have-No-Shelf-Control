@@ -15,6 +15,8 @@
   </header>
   <nav>
     <a href="/">Home</a>
+    <a href="/api/addBooks">Add Book</a>
+    {{!-- <a href="../addBook">Add Book</a> --}}
 
     {{#if loggedIn}}
 
@@ -29,6 +31,40 @@
   <main>
     <aside>
       <h2>Book Review Database</h2>
+      <div>
+        <h2>Add your own book!</h2>
+        <p>Select your genre</p>
+        <select>
+          <option>Genres</option>  
+          <option>Art</option>  
+          <option>Autobiography</option>  
+          <option>Biography</option>  
+          <option>Business</option>  
+          <option>Childrens</option>  
+          <option>Christian</option>  
+          <option>Classics</option>  
+          <option>Comics</option>  
+          <option>Cookbooks</option>  
+          <option>Fantasy</option>  
+          <option>Fiction</option>  
+          <option>History</option>  
+          <option>Horror</option>  
+          <option>Music</option>  
+          <option>Mystery</option>  
+          <option>Nonfiction</option>  
+          <option>Poetry</option>  
+          <option>Romance</option>  
+          <option>Science</option>  
+          <option>Science Fiction</option>  
+          <option>Self Help</option>  
+          <option>Sports</option>  
+          <option>Thriller</option>  
+          <option>Travell</option>  
+        </select>
+        {{!-- <input type="text", id="title"/> --}}
+        {{!-- <input type="text", id="author"/> --}}
+        {{!-- <button id="book-addition">Add a book!</button> --}}
+      </div>
     </aside>
     <div class="gallery">
 
