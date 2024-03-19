@@ -28,9 +28,12 @@ Our application provides a platform for users to review and discuss books. Featu
 
 ## 3. Visuals
 
-```diff
-- Add screenshots or videos here
-```
+![screen1](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/943c4441-635a-4fda-a072-c1a8457386f6)
+![screen2](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/a18bd52e-95e0-4256-88d0-a258377c24b6)
+![screen3](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/ad0cd7c0-93c1-432e-b6d6-f117df42bfa4)
+![screen4](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/cce48928-f798-4881-8da3-19c8e1d1b755)
+![screen5](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/b7b02c3f-e4f3-4456-a006-f6e9aa1e2877)
+![screen6](https://github.com/BenRodwell/I-Have-No-Shelf-Control/assets/139626561/4db3ac97-72e9-4de2-bcc1-af5bb1b057a5)
 
 ## 4. Usage and Installation
 
