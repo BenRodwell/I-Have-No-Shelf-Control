@@ -106,6 +106,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 9. Project status
 
-```diff
-- This project is currently development
-```
+This project is completed.
