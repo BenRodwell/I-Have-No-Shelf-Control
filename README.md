@@ -15,7 +15,7 @@
 ## 1. Description
 
 ```diff
-- Add project description here
+I Have No Shelf Control is a user-friendly web application whereby users can connect with other fellow book lovers by posting, reviewing and commenting on their favourite books. Here, members can review and discuss their favourite books, whilst also discovering other books in a simple and easy to access web application.
 ```
 
 ## 2. Badges
@@ -95,5 +95,5 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 ## 9. Project status
 
 ```diff
-- This project is currently development
+- This project is complete
 ```
