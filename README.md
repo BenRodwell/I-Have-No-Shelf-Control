@@ -28,9 +28,7 @@ Our application provides a platform for users to review and discuss books. Featu
 
 ## 3. Visuals
 
-```diff
-- Add screenshots or videos here
-```
+See deployed website through Heroku url.
 
 ## 4. Usage and Installation
 
