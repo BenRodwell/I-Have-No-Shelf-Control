@@ -4,6 +4,7 @@ const { Gallery, Painting } = require("../../models");
 router.get("/", (req, res) => {
     if (!req.session.loggedIn) {
       res.redirect('/login');
+      return;
     };
 
 	res.render("addBook", {
